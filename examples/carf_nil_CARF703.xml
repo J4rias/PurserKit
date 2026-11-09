@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carf:CARF_OECD xmlns:carf="urn:oecd:ties:carf:v1" xmlns:stf="urn:oecd:ties:carfstf:v5" xmlns:iso="urn:oecd:ties:isocarftypes:v1" version="1.5">
+ <carf:MessageSpec>
+  <carf:SendingEntityIN>800999999</carf:SendingEntityIN>
+  <carf:TransmittingCountry>CO</carf:TransmittingCountry>
+  <carf:ReceivingCountry>CO</carf:ReceivingCountry>
+  <carf:MessageType>CARF</carf:MessageType>
+  <carf:MessageRefId>CO2026CO80099999900001</carf:MessageRefId>
+  <carf:MessageTypeIndic>CARF703</carf:MessageTypeIndic>
+  <carf:ReportingPeriod>2026-12-31</carf:ReportingPeriod>
+  <carf:Timestamp>2027-03-15T09:45:30</carf:Timestamp>
+ </carf:MessageSpec>
+ <carf:CARFBody>
+  <carf:RCASP>
+   <carf:RCASP_ID><carf:Entity>
+     <carf:ResCountryCode>CO</carf:ResCountryCode>
+     <carf:TIN issuedBy="CO">800999999</carf:TIN>
+     <carf:Name>EJEMPLO SAS</carf:Name>
+     <carf:Address><carf:CountryCode>CO</carf:CountryCode><carf:AddressFix><carf:City>BOGOTA</carf:City></carf:AddressFix></carf:Address>
+   </carf:Entity></carf:RCASP_ID>
+   <carf:Nexus>CARF901</carf:Nexus>
+   <carf:DocSpec><stf:DocTypeIndic>OECD1</stf:DocTypeIndic><stf:DocRefId>CO2026CO80099999900001000001</stf:DocRefId></carf:DocSpec>
+  </carf:RCASP>
+ </carf:CARFBody>
+</carf:CARF_OECD>

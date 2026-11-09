@@ -1,0 +1,11 @@
+[project]
+name = "purserkit"
+version = "0.0.1"
+description = "PurserKit: Stellar + Anchor Platform data to the regulatory reports required by DIAN (Colombia's tax authority): CARF XML (Res. 000240/2025, Anexo T6.17) and Formato 2856 XML (Res. 000233/2025, Anexo T3.73), plus UIAF (Colombia's financial intelligence unit) reports"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = ["lxml>=5", "stellar-sdk>=13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "xmlschema>=3"]

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CARF_OECD xmlns="urn:oecd:ties:carf:v1" xmlns:stf="urn:oecd:ties:carfstf:v5" xmlns:iso="urn:oecd:ties:isocarftypes:v1" version="1.0">
+  <MessageSpec>
+    <SendingEntityIN>900000000</SendingEntityIN>
+    <TransmittingCountry>CO</TransmittingCountry>
+    <ReceivingCountry>CO</ReceivingCountry>
+    <MessageType>CARF</MessageType>
+    <MessageRefId>CO2026CO90000000000001</MessageRefId>
+    <MessageTypeIndic>CARF701</MessageTypeIndic>
+    <ReportingPeriod>2026-12-31</ReportingPeriod>
+    <Timestamp>2026-11-08T20:46:55</Timestamp>
+  </MessageSpec>
+  <CARFBody>
+    <RCASP>
+      <RCASP_ID>
+        <Entity>
+          <ResCountryCode>CO</ResCountryCode>
+          <TIN issuedBy="CO">900000000</TIN>
+          <Name>TEST RCASP S.A.S. (synthetic)</Name>
+          <Address>
+            <CountryCode>CO</CountryCode>
+            <AddressFix>
+              <City>Bogota</City>
+            </AddressFix>
+          </Address>
+        </Entity>
+      </RCASP_ID>
+      <Nexus>CARF901</Nexus>
+      <DocSpec>
+        <stf:DocTypeIndic>OECD11</stf:DocTypeIndic>
+        <stf:DocRefId>CO2026CO90000000000001000001</stf:DocRefId>
+      </DocSpec>
+    </RCASP>
+    <CryptoUsers>
+      <UserID>
+        <Individual>
+          <ResCountryCode>CO</ResCountryCode>
+          <TIN unknown="true">NOTIN</TIN>
+          <Name>
+            <FirstName>Test</FirstName>
+            <LastName>User1</LastName>
+          </Name>
+          <Address>
+            <CountryCode>CO</CountryCode>
+            <AddressFix>
+              <City>Medellin</City>
+            </AddressFix>
+            <AdditionalAddressInfo>stellar:GAFK7XFZHMLSNV7OJTBO7BAIZA66X6QIBV5RMZZYXK4Q7ZSO52J5C3WQ</AdditionalAddressInfo>
+          </Address>
+          <BirthInfo>
+            <BirthDate>1990-01-01</BirthDate>
+          </BirthInfo>
+        </Individual>
+      </UserID>
+      <RelevantTransactions>
+        <CryptoAsset>EURC (GDHU6WRG...)</CryptoAsset>
+        <CryptoTransferOut>
+          <TransferType>CARF606</TransferType>
+          <NumberofTransactions>1</NumberofTransactions>
+          <Amount currCode="USD">2738.19</Amount>
+          <NumberofUnits>2484.830000</NumberofUnits>
+        </CryptoTransferOut>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>EURC (GDHU6WRG...)</CryptoAsset>
+        <TransferWallet>
+          <Amount currCode="USD">2738.19</Amount>
+          <NumberofUnits>2484.830000</NumberofUnits>
+        </TransferWallet>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>USDC (GA5ZSEJY...)</CryptoAsset>
+        <CryptoTransferIn>
+          <TransferType>CARF509</TransferType>
+          <NumberofTransactions>31</NumberofTransactions>
+          <Amount currCode="USD">30886.50</Amount>
+          <NumberofUnits>30886.500000</NumberofUnits>
+        </CryptoTransferIn>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>USDC (GA5ZSEJY...)</CryptoAsset>
+        <CryptoTransferOut>
+          <TransferType>CARF606</TransferType>
+          <NumberofTransactions>18</NumberofTransactions>
+          <Amount currCode="USD">2463.57</Amount>
+          <NumberofUnits>2463.570000</NumberofUnits>
+        </CryptoTransferOut>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>USDC (GA5ZSEJY...)</CryptoAsset>
+        <TransferWallet>
+          <Amount currCode="USD">2463.57</Amount>
+          <NumberofUnits>2463.570000</NumberofUnits>
+        </TransferWallet>
+      </RelevantTransactions>
+      <DocSpec>
+        <stf:DocTypeIndic>OECD11</stf:DocTypeIndic>
+        <stf:DocRefId>CO2026CO90000000000001000002</stf:DocRefId>
+      </DocSpec>
+    </CryptoUsers>
+    <CryptoUsers>
+      <UserID>
+        <Individual>
+          <ResCountryCode>CO</ResCountryCode>
+          <TIN unknown="true">NOTIN</TIN>
+          <Name>
+            <FirstName>Test</FirstName>
+            <LastName>User2</LastName>
+          </Name>
+          <Address>
+            <CountryCode>CO</CountryCode>
+            <AddressFix>
+              <City>Medellin</City>
+            </AddressFix>
+            <AdditionalAddressInfo>stellar:GDSF6R22FZVRCUJWSUZANWU4SPXIP5Z33R67FGEUNVWT2OGTUMLUIOFJ</AdditionalAddressInfo>
+          </Address>
+          <BirthInfo>
+            <BirthDate>1990-01-01</BirthDate>
+          </BirthInfo>
+        </Individual>
+      </UserID>
+      <RelevantTransactions>
+        <CryptoAsset>USDC (GA5ZSEJY...)</CryptoAsset>
+        <CryptoToCryptoIn>
+          <NumberofTransactions>36</NumberofTransactions>
+          <Amount currCode="USD">75.01</Amount>
+          <NumberofUnits>75.005415</NumberofUnits>
+        </CryptoToCryptoIn>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>USDC (GA5ZSEJY...)</CryptoAsset>
+        <CryptoToCryptoOut>
+          <NumberofTransactions>14</NumberofTransactions>
+          <Amount currCode="USD">1.67</Amount>
+          <NumberofUnits>1.674018</NumberofUnits>
+        </CryptoToCryptoOut>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>XLM</CryptoAsset>
+        <CryptoToCryptoIn>
+          <NumberofTransactions>14</NumberofTransactions>
+          <Amount currCode="USD">1.67</Amount>
+          <NumberofUnits>11.172743</NumberofUnits>
+        </CryptoToCryptoIn>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>XLM</CryptoAsset>
+        <CryptoToCryptoOut>
+          <NumberofTransactions>36</NumberofTransactions>
+          <Amount currCode="USD">74.94</Amount>
+          <NumberofUnits>500.252447</NumberofUnits>
+        </CryptoToCryptoOut>
+      </RelevantTransactions>
+      <DocSpec>
+        <stf:DocTypeIndic>OECD11</stf:DocTypeIndic>
+        <stf:DocRefId>CO2026CO90000000000001000003</stf:DocRefId>
+      </DocSpec>
+    </CryptoUsers>
+    <CryptoUsers>
+      <UserID>
+        <Individual>
+          <ResCountryCode>CO</ResCountryCode>
+          <TIN unknown="true">NOTIN</TIN>
+          <Name>
+            <FirstName>Test</FirstName>
+            <LastName>User3</LastName>
+          </Name>
+          <Address>
+            <CountryCode>CO</CountryCode>
+            <AddressFix>
+              <City>Medellin</City>
+            </AddressFix>
+            <AdditionalAddressInfo>stellar:GBH7JO6POSQY2LRFKGZTIQN3AB42ARIUO3XCLOWTDQ6MD2JSNPTHOD3Z</AdditionalAddressInfo>
+          </Address>
+          <BirthInfo>
+            <BirthDate>1990-01-01</BirthDate>
+          </BirthInfo>
+        </Individual>
+      </UserID>
+      <RelevantTransactions>
+        <CryptoAsset>KALE (GBDVX4VE...)</CryptoAsset>
+        <CryptoTransferIn>
+          <TransferType>CARF503</TransferType>
+          <NumberofTransactions>45</NumberofTransactions>
+          <Amount currCode="USD">0.00</Amount>
+          <NumberofUnits>34.811232</NumberofUnits>
+        </CryptoTransferIn>
+      </RelevantTransactions>
+      <RelevantTransactions>
+        <CryptoAsset>KALE (GBDVX4VE...)</CryptoAsset>
+        <CryptoTransferOut>
+          <TransferType>CARF606</TransferType>
+          <NumberofTransactions>46</NumberofTransactions>
+          <Amount currCode="USD">0.00</Amount>
+          <NumberofUnits>25.749656</NumberofUnits>
+        </CryptoTransferOut>
+      </RelevantTransactions>
+      <DocSpec>
+        <stf:DocTypeIndic>OECD11</stf:DocTypeIndic>
+        <stf:DocRefId>CO2026CO90000000000001000004</stf:DocRefId>
+      </DocSpec>
+    </CryptoUsers>
+  </CARFBody>
+</CARF_OECD>
